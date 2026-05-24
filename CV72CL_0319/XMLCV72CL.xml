@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CV72CL_Vendeglatas>
+
+        <Etterem id="E01">
+            <Nev>Aranykanál Étterem</Nev>
+
+            <Cim>
+                <Varos>Sárospatak</Varos>
+                <Utca>Fő utca</Utca>
+                <Hazszam>10</Hazszam>
+            </Cim>
+
+            <Csillag>5/5</Csillag>
+
+            <Foszakacs id="F01">
+                <Nev>Kiss Márton</Nev>
+                <Eletkor>45</Eletkor>
+                <Vegzettseg>Szakács</Vegzettseg>
+            </Foszakacs>
+
+
+            <Szakacs id="SZ01">
+                <Nev>Nagy János</Nev>
+                <Reszleg>Hidegkonyha</Reszleg>
+                <Vegzettseg>Szakács</Vegzettseg>
+            </Szakacs>
+
+            <Gyakornok id="GY01">
+                <Nev>Kiss Péter</Nev>
+                    <Gyakorlat>
+                        <Kezdete>2026.03.16</Kezdete>
+                        <Idotartam>6 hónap</Idotartam>
+                    </Gyakorlat>
+                    <Muszak>Délelőtt</Muszak>
+            </Gyakornok>
+
+        </Etterem>
+
+        <Vendeg id="V01">
+            <Nev>Kiss Róbert</Nev>
+            <Cim>
+                <Varos>Sárospatak</Varos>
+                <Utca>Kossuth utca</Utca>
+                <Hazszam>5</Hazszam>
+            </Cim>
+            <Eletkor>30</Eletkor>
+        </Vendeg>
+
+        <Rendeles>
+            <EtteremRef>E01</EtteremRef>
+            <VendegRef>V01</VendegRef>
+            <Etel>Pizza</Etel>
+            <Osszeg>3500-Ft</Osszeg>
+        </Rendeles>
+
+</CV72CL_Vendeglatas>

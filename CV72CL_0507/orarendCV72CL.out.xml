@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>XY Órarend – 2026 II. félév.</title>
+
+        <style>
+            body {
+            font-family: Arial;
+            background-color: #f0f8ff;
+            }
+
+            table {
+            border-collapse: collapse;
+            width: 100%;
+            }
+
+            th,
+            td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+            }
+
+            th {
+            background-color: lightblue;
+            }
+
+            tr:nth-child(even) {
+            background-color: #eeeeee;
+            }
+
+            h1 {
+            text-align: center;
+            color: darkblue;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <h1>XY Órarend – 2026 II. félév.</h1>
+
+        <table>
+
+            <tr>
+                <th>ID</th>
+                <th>Típus</th>
+                <th>Tárgy</th>
+                <th>Nap</th>
+                <th>Tól</th>
+                <th>Ig</th>
+                <th>Helyszín</th>
+                <th>Oktató</th>
+                <th>Szak</th>
+            </tr>
+
+            <tr>
+                <td>01</td>
+                <td>elmelet</td>
+                <td>Számításelmélet</td>
+                <td>Hétfő</td>
+                <td>9</td>
+                <td>12</td>
+                <td>Online</td>
+                <td>Dr. Veres Laura</td>
+                <td>Programtervező Informatikus Bsc</td>
+            </tr>
+
+            <tr>
+                <td>02</td>
+                <td>gyakorlat</td>
+                <td>Komputergrafika és képfeldolgozás</td>
+                <td>Kedd</td>
+                <td>12</td>
+                <td>14</td>
+                <td>Online</td>
+                <td>Dr. Mileff Péter</td>
+                <td>Programtervező Informatikus Bsc</td>
+            </tr>
+
+            <tr>
+                <td>03</td>
+                <td>gyakorlat</td>
+                <td>Alkalmazások Fejlesztése Projekt Labor II.</td>
+                <td>Kedd</td>
+                <td>16</td>
+                <td>19</td>
+                <td>Online</td>
+                <td>Dr. Godó Zoltán Attila</td>
+                <td>Programtervező Informatikus Bsc</td>
+            </tr>
+
+            <tr>
+                <td>04</td>
+                <td>elmelet</td>
+                <td>Valószínűségszámítás és statisztika</td>
+                <td>Szerda</td>
+                <td>8</td>
+                <td>11</td>
+                <td>Terem: 116</td>
+                <td>Dr. Kucsinka Katalin</td>
+                <td>Programtervező Informatikus Bsc</td>
+            </tr>
+
+            <tr>
+                <td>05</td>
+                <td>gyakorlat</td>
+                <td>Oktatás és gamifikáció, videojáték - tanulmányok</td>
+                <td>Szerda</td>
+                <td>12</td>
+                <td>14</td>
+                <td>Terem: Info132</td>
+                <td>Perlaki Attila</td>
+                <td>Programtervező Informatikus Bsc</td>
+            </tr>
+
+            <tr>
+                <td>06</td>
+                <td>elmelet</td>
+                <td>Fordítóprogramok</td>
+                <td>Szerda</td>
+                <td>17</td>
+                <td>19</td>
+                <td>Online</td>
+                <td>Dr. Túri József</td>
+                <td>Programtervező Informatikus Bsc</td>
+            </tr>
+
+            <tr>
+                <td>07</td>
+                <td>elmelet</td>
+                <td>Hálózati architektúrák és protokolok</td>
+                <td>Csütörtök</td>
+                <td>9</td>
+                <td>11</td>
+                <td>Online</td>
+                <td>Dr. Mileff Péter</td>
+                <td>Programtervező Informatikus Bsc</td>
+            </tr>
+
+            <tr>
+                <td>08</td>
+                <td>gyakorlat</td>
+                <td>Webkönyvtárak</td>
+                <td>Csütörtök</td>
+                <td>11</td>
+                <td>13</td>
+                <td>Terem: Info124</td>
+                <td>Dr. Bednarik László</td>
+                <td>Programtervező Informatikus Bsc</td>
+            </tr>
+
+        </table>
+
+    </body>
+
+</html>

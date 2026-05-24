@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CV72CL_Vendeglatas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespacesSchemaLocation="XDMCV72CL.xsd">
+
+        <etterem ekod="E01">
+            <nev>Aranykanál Étterem</nev>
+
+            <cim>
+                <varos>Sárospatak</varos>
+                <utca>Fő utca</utca>
+                <hazszam>10</hazszam>
+            </cim>
+
+            <csillag>5/5</csillag>
+
+            <foszakacs fkod="F01" e_f="E01">
+                <nev>Kiss Márton</nev>
+                <eletkor>45</eletkor>
+                <vegzettseg>Szakács</vegzettseg>
+            </foszakacs>
+
+
+            <szakacs szkod="SZ01">
+                <nev>Nagy János</nev>
+                <Reszleg>Hidegkonyha</Reszleg>
+                <Vegzettseg>Szakács</Vegzettseg>
+            </szakacs>
+
+            <gyakornok gykod="GY01">
+                <nev>Kiss Péter</nev>
+                    <gyakorlat>
+                        <kezdete>2026.03.16</kezdete>
+                        <idotartam>6 hónap</idotartam>
+                    </gyakorlat>
+                    <muszak>Délelőtt</muszak>
+            </gyakornok>
+
+        </etterem>
+
+        <vendeg vkod="V01">
+            <nev>Kiss Róbert</nev>
+            <cim>
+                <varos>Sárospatak</varos>
+                <utca>Kossuth utca</utca>
+                <hazszam>5</hazszam>
+            </cim>
+            <eletkor>30</eletkor>
+        </vendeg>
+
+        <rendeles>
+            <etteremRef>E01</etteremRef>
+            <vendegRef>V01</vendegRef>
+            <etel>Pizza</etel>
+            <osszeg>3500-Ft</osszeg>
+        </rendeles>
+
+</CV72CL_Vendeglatas>

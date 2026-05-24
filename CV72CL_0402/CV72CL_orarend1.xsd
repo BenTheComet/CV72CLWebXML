@@ -1,0 +1,71 @@
+<xs:schema>
+
+        <xs:element name="orarend" >
+        <xs:comlexType>
+            <xs:sequence>
+                <xs:element name="ora" type="oratIpus" maxOccurs="unbounded"/>
+            </xs:sequence>
+            </xs:sequence>
+        </xs:comlexType>
+
+        <xs:comlexType name="oraTipus">
+            <xs:sequence>
+                <xs:element name="targy" type="xs:string"/>
+                <xs:element name="idopont" type="idopontTipus"/>
+                <xs:element name="helyszin" type="xs:string"/>
+                <xs:element name="oktato" type="xs:string"/>
+                <xs:element name="szak" type="xs:string"/>
+            </xs:sequence>
+        <xs:attribute name="id" type="xs:int" use="required"/>
+        <xs:attribute name="tipus" type="oraTipusTipus" default="előadás"/>
+        </xs:comlexType>
+
+        <xs:simpleType name="oraTipusTipus">
+                <xs:restriction base="xs:string">
+                <xs:enumeration value="előadás">
+                <xs:enumeration value="gyakorlat">
+                </xs:restriction>
+        </xs:simpleType>
+
+        <xs:comlexType name="idopontTipus">
+            <xs:sequence>
+                <xs:element name="nap" type="napTipus"/>
+                <xs:element name="tol" type="idopontOraTipus"/>
+                <xs:element name="tol" type="idopontOraTipus"/>
+            </xs:sequence>
+        </xs:comlexType>
+
+        <xs:simpleType name="napTipus">
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="hétfő">
+                <xs:enumeration value="kedd">
+                <xs:enumeration value="szerda">
+                <xs:enumeration value="csütörtök">
+                <xs:enumeration value="péntek">
+            </xs:restriction>
+        </xs:simpleType>
+
+        <xs:simpleType name="idopontOraTipus">
+            <xs:restriction base="xs:positiveInteger">
+                <xs:minInclusive value="8">
+                <xs:maxInclusive value="18">
+            </xs:restriction>
+        </xs:simpleType>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</xs:schema>
